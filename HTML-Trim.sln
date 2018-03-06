@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HTML-Trim", "HTML-Trim\HTML-Trim.csproj", "{4D6AEB50-32DE-4B1E-A51D-D4646EEB9743}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HTML-Trim-Console", "HTML-Trim-Console\HTML-Trim-Console.csproj", "{77077B71-8C77-41BC-A370-0E6939BC4AD9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4D6AEB50-32DE-4B1E-A51D-D4646EEB9743} = {4D6AEB50-32DE-4B1E-A51D-D4646EEB9743}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D6AEB50-32DE-4B1E-A51D-D4646EEB9743}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D6AEB50-32DE-4B1E-A51D-D4646EEB9743}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D6AEB50-32DE-4B1E-A51D-D4646EEB9743}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D6AEB50-32DE-4B1E-A51D-D4646EEB9743}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77077B71-8C77-41BC-A370-0E6939BC4AD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77077B71-8C77-41BC-A370-0E6939BC4AD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77077B71-8C77-41BC-A370-0E6939BC4AD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77077B71-8C77-41BC-A370-0E6939BC4AD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9E986A3-BBA4-484F-AA7E-0034C5819B72}
+	EndGlobalSection
+EndGlobal
